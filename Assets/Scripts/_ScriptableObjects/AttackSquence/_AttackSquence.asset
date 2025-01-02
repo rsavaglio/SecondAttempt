@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 832bad4ebbbbf42dc83c10935105c8e4, type: 3}
+  m_Name: _AttackSquence
+  m_EditorClassIdentifier: 
+  _isMultiHit: 1
+  _repeatLastAttackPhase: 0
+  _SetupPhase: {fileID: 11400000, guid: bfe2eea0022aa44cda21bae2c86008b8, type: 2}
+  _AttackPhases:
+  - {fileID: 11400000, guid: 01f5d846f6f2b45f5b284504586d2b82, type: 2}
+  _OnHitPhase: {fileID: 11400000, guid: b9275fc1f129b4cb0899c8c0cd4d310e, type: 2}
+  _OnMissPhase: {fileID: 11400000, guid: 61466c1831bb6438abb9ddc34aab2c6b, type: 2}
+  _ResetPhase: {fileID: 11400000, guid: 77abbc49742bd40e9ae2be425fbc661f, type: 2}
