@@ -35,6 +35,7 @@ public class AttackRunner : MonoBehaviour
         if(_attackAction.IsPressed())
         {
             _animator.SetTrigger("TriggerAttackSequence");
+            InitFirstTarget();
             Debug.Log("Attack Sequence Triggered");
         }
     }
@@ -95,6 +96,11 @@ public class AttackRunner : MonoBehaviour
     public void NextTarget()
     {
         SendMessage("IncrementTarget");
+    }
+
+    public void InitFirstTarget()
+    {
+        SendMessage("SetFirstTarget");
     }
 
     public AttackPhase GetAttackPhase(AttackPhaseType anAttackPhaseType, int attackIndex = 0)

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _AnimationClip: {fileID: 7400000, guid: b04cd15de6cca42fa9c470dab0d1c825, type: 2}
   _KeyframeList:
-  - _interpolationType: 0
+  - _interpolationType: 1
     _PositionType: 0
-    _Position: {x: 0, y: -3, z: 0}
-    _bezierControlPoint: {x: 0, y: 0, z: 0}
+    _Position: {x: -3, y: 0, z: 0}
+    _bezierControlPoint: {x: -2, y: 1, z: 0}

@@ -30,4 +30,11 @@ public class BattleManager : MonoBehaviour
 
         Debug.Log("Increment Target!");
     }
+
+    void SetFirstTarget()
+    {
+        _enemyIndex = 0;
+        _currentTarget = _enemyList[_enemyIndex];
+        SendMessage("OnTargetChange", _currentTarget);
+    }
 }
